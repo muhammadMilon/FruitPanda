@@ -1,27 +1,33 @@
-# Fruit Panda - Enhanced Fruit Marketplace Platform
+# FruitPanda - Enhanced Fruit Marketplace Platform
 
-A comprehensive fruit marketplace platform connecting farmers directly with consumers, featuring AI-powered fruit scanning, dynamic pricing, and multilingual support.
+The main goal of the Fruit Panda platform is to connect farmers directly with city buyers, removing middlemen and ensuring fair prices for everyone. It uses AI technologies like Google Gemini to scan and analyze fruit quality in real time, building trust and transparency. The platform also offers smart price forecasts based on market trends and seasonal changes, helping users make better choices. With support for both Bengali and English, Fruit Panda is easy to use for a wide range of people. Overall, it aims to support farmers, modernize the supply chain, and make fruit shopping smarter and more efficient.
+
 
 ## 🚀 Features
 
-### Core Features
-- *Direct Farmer-to-Consumer Marketplace*: Connect verified farmers with urban consumers
-- *AI Fruit Scanner*: Advanced fruit quality analysis using Google Gemini AI
-- *Dynamic Pricing*: AI-powered price predictions and seasonal forecasting
-- *Multilingual Support*: Full Bengali and English language support
-- *Real-time Analytics*: Comprehensive dashboard for sellers and admins
+### 🛒 Marketplace & User Accessibility
+- **Direct Farmer-to-Consumer Marketplace**: Connect verified farmers with urban consumers  
+- **Multilingual Support (Bengali & English)**: Accessible for both local farmers and urban users  
+- **Nutritional Information**: Show nutrition facts and health benefits of each fruit  
 
-### AI-Powered Features
-- *Fruit Quality Analysis*: Real-time assessment of ripeness, freshness, and quality
-- *Nutritional Information*: Detailed nutritional facts and health benefits
-- *Storage Recommendations*: AI-generated storage and usage advice
-- *Price Forecasting*: Predictive pricing based on market trends
+### 📊 Dashboards & Order Management
+- **Real-Time Analytics Dashboard**: Live insights into orders, sales, inventory, and performance  
+- **Complete Order Management**: Track orders from placement to delivery  
+- **Admin Dashboard**: Manage users, content, analytics, and reports  
+- **Seller Dashboard**: Tools for sellers to manage products, orders, and inventory  
 
-### User Management
-- *Multi-role System*: Users, Sellers, and Admins with different permissions
-- *Seller Verification*: Comprehensive seller onboarding and verification
-- *Order Management*: Complete order lifecycle management
-- *Payment Integration*: Multiple payment methods including mobile banking
+### 👥 User Roles & Access
+- **Multi-role System (User, Seller, Admin)**: Role-based access and functionality  
+- **Seller Verification**: Authenticate real farmers before allowing them to sell  
+
+### 💳 Payments & Transactions
+- **Multiple Payment Methods**: Support mobile banking, SSL Commerz, and others  
+- **Dynamic Pricing**: AI-powered price predictions and seasonal forecasting  
+
+### 🔐 Security & Authentication
+- **JWT Authentication & Google OAuth**: Secure and seamless login system  
+- **Input Validation & Security (Helmet, CORS, Rate Limiting)**: Protect APIs and user data 
+
 
 ## 🛠 Technology Stack
 
@@ -39,10 +45,6 @@ A comprehensive fruit marketplace platform connecting farmers directly with cons
 - *Passport.js* for OAuth
 - *Multer* for file uploads
 
-### AI Integration
-- *Google Gemini AI* for fruit analysis
-- *Computer Vision* for image processing
-- *Natural Language Processing* for multilingual support
 
 ### Additional Services
 - *Cloudinary* for image management
@@ -134,28 +136,8 @@ The application will be available at:
 - Email: admin@fruitpanda.com
 - Password: admin123
 
-## 🤖 AI Fruit Scanner Setup
-
-### Getting Google Gemini API Key
-
-1. Go to [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. Create a new API key
-3. Add the API key to your .env file as VITE_GEMINI_API_KEY
-
-### Features of AI Scanner
-- *Real-time Analysis*: Instant fruit quality assessment
-- *Multi-language Results*: Results in both English and Bengali
-- *Confidence Scoring*: AI confidence levels for reliability
-- *Nutritional Data*: Comprehensive nutritional information
-- *Storage Advice*: Personalized storage recommendations
 
 ## 📱 Key Components
-
-### AI Fruit Scanner (/fruit-scanner)
-- Camera integration for real-time scanning
-- File upload support for existing images
-- Advanced AI analysis with Google Gemini
-- Detailed results with actionable insights
 
 ### Dynamic Pricing (/seasonal-forecast)
 - AI-powered price predictions
@@ -242,7 +224,7 @@ This project is licensed under the MIT License.
 ## 🆘 Support
 
 For support and questions:
-- Email: support@fruitpanda.com
+- Email: fruitpanda250@gmail.com
 - Documentation: [Link to docs]
 - Issues: [GitHub Issues]
 
@@ -250,7 +232,6 @@ For support and questions:
 
 ### v1.0.0 (Current)
 - Initial release with core marketplace features
-- AI fruit scanner integration
 - Dynamic pricing system
 - Admin and seller dashboards
 - Multilingual support
