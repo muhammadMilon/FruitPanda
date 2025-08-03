@@ -220,7 +220,7 @@ Distributed under the MIT License. See `LICENSE` file for more info.
 ## 🆘 Support & Contact
 
 📧 Email: fruitpanda250@gmail.com  
-📚 Documentation: [Link to full docs]  
+📚 Documentation: [click here](https://docs.google.com/document/d/1fFjxfOpP9YQIdVWerd-9Zj0cQSIMxv-shBwWLykIj6s/edit?tab=t.0#heading=h.cjcrecs9jm9l)  
 🐞 Report issues: [GitHub Issues Page]
 
 ---
